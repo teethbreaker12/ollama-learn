@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            http-equiv="Content-Security-Policy"
+            content="default-src 'self'; script-src 'self'"
+        />
+        <title>System Zarządzania budzetem</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body class="front-page">
+		<header class="front-box">
+			<h1>Zarządzanie budzetem</h1>
+		</header>
+		<section class="front-box">
+        	<h2>Podłączona baza danych:</h2>
+			<p id="db-status">Ładowanie...</p>
+		</section>
+        <nav class="front-box">
+            <h2>Szybkie działania:</h2>
+            <button>Wprowadź fakturę</button>
+            <button>Statystyki</button>
+            <button>Ustawienia</button>
+        </nav>
+        <script src="renderer.js"></script>
+    </body>
+</html>
