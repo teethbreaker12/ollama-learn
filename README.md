@@ -1,0 +1,1 @@
+Aplikacja pozwalająca zarządzać budzetem projektu lub organizacji w oparciu o arkusze google
