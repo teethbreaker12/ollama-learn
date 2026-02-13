@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            http-equiv="Content-Security-Policy"
+            content="default-src 'self'; script-src 'self'"
+        />
+        <title>System Zarządzania Budżetem</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body class="page">
+        <header class="box">
+            <h1>Zarządzanie Budżetem</h1>
+			<p>Wersja 0.1 - Młodzieżowa Rada Miejska Kłodzka</p>
+        </header>
+        <section class="box">
+            <h2>Podłączona baza danych:</h2>
+            <p id="db-status">Ładowanie...</p>
+        </section>
+        <nav class="box">
+            <h2>Nawigacja:</h2>
+            <a href='pages/create_application.html'>Utwórz wniosek</a>
+            <a href='pages/view_applications.html'>Podgląd wniosków</a>
+            <a href='pages/enter_invoice.html'>Wprowadź fakturę</a>
+            <a href='pages/settings.html'>Ustawienia</a>
+        </nav>
+        <script src="renderer.js"></script>
+    </body>
+</html>

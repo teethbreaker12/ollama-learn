@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../styles.css" />
+        <title>Tworzenie wniosku</title>
+    </head>
+    <body class="page">
+        <header class="box">
+            <h1>Tworzenie wniosku</h1>
+            <p>Wprowadź dane wniosku poniżej</p>
+        </header>
+        <section class="box">
+            <form id="application-form">
+                <section class="application-form-section">
+                    <label for="applicant-name">Nadawca wniosku:</label>
+                    <input
+                        type="text"
+                        id="applicant-name"
+                        name="applicant-name"
+                        required
+                    />
+                </section>
+                <section class="application-form-section">
+                    <label for="application-cost">Wnioskowana kwota:</label>
+                    <input
+                        type="text"
+                        id="application-cost"
+                        name="application-cost"
+                        required
+                    />
+                </section>
+                <section class="application-form-section">
+                    <label for="application-source">Źródło finansowania:</label>
+                    <input
+                        type="text"
+                        id="application-source"
+                        name="application-source"
+                        required
+                    />
+                </section>
+                <section class="application-form-section">
+                    <label for="application-description">Opis wniosku:</label>
+                    <textarea
+                        id="application-description"
+                        name="application-description"
+                        rows="5"
+                        required
+                    ></textarea>
+                </section>
+                <section class="application-form-section">
+                    <button type="submit">Złóż wniosek</button>
+                </section>
+            </form>
+        </section>
+        <footer class="box">
+            <h2>Powrót:</h2>
+            <a href="../index.html">Powrót do strony głównej</a>
+        </footer>
+        <script src="../scripts/create_application.js"></script>
+    </body>
+</html>
